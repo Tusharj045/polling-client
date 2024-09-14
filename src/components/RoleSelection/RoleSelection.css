@@ -1,0 +1,75 @@
+.role-selection {
+    text-align: center;
+    margin: 50px auto;
+    width: 762px;
+    font-family: 'Sora', 'Arial', sans-serif;
+    color: #6E6E6E; /* Darker gray for text */
+}
+
+.header {
+    margin-bottom: 20px; /* Reduce gap between h1 and p */
+}
+
+.header h1 {
+    font-weight: 400;
+    line-height: 1.2; /* Adjust line-height */
+    color: #373737; /* Dark gray */
+}
+
+.header p {
+    margin-top: 5px; /* Reduce space between h1 and p */
+    color: #6E6E6E; /* Medium gray for paragraph */
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+.role-cards {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.role-card {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 17px;
+    margin: 0 10px;
+    width: 387px;
+    height: 143px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.role-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #373737; /* Dark gray for headings */
+}
+
+.role-card p {
+    color: #6E6E6E; /* Medium gray for paragraphs */
+}
+
+.role-card:hover {
+    border-color: #7765DA; /* Purple border on hover */
+}
+
+.selected {
+    border-color: #5767D0; /* Blue border when selected */
+    box-shadow: 0 0 10px rgba(61, 90, 254, 0.5);
+}
+
+.continue_button {
+    margin-top: 10px;
+    height: 58px;
+    width: 234px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.polling_logo {
+    height: 31px;
+    width: 134px;
+}
